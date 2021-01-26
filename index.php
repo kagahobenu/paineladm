@@ -11,6 +11,40 @@ if ($pg) {
 
     switch ($_GET['pg']) {
 
+        case 'inicio':
+
+
+            include_once 'painel/paginas/includes/header.php';
+            include_once 'painel/paginas/includes/menus.php';
+            include_once 'painel/paginas/dashboard.php';
+            include_once 'painel/paginas/includes/footer.php';
+            break;
+        case 'produtos':
+
+
+            include_once 'painel/paginas/includes/header.php';
+            include_once 'painel/paginas/includes/menus.php';
+            include_once 'painel/paginas/produtos.php';
+            include_once 'painel/paginas/includes/footer.php';
+            break;
+        
+        case 'servicos':
+
+
+            include_once 'painel/paginas/includes/header.php';
+            include_once 'painel/paginas/includes/menus.php';
+            include_once 'painel/paginas/servicos.php';
+            include_once 'painel/paginas/includes/footer.php';
+            break;
+        case 'contato':
+
+
+            include_once 'painel/paginas/includes/header.php';
+            include_once 'painel/paginas/includes/menus.php';
+            include_once 'painel/paginas/contato.php';
+            include_once 'painel/paginas/includes/footer.php';
+            break;
+
         case 'inicial':
 
             include_once 'site/inicio.php';

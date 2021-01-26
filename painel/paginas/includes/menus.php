@@ -29,7 +29,7 @@
                 <i class="fas fa-expand-arrows-alt"></i>
             </a>
         </li>
-        
+
     </ul>
 </nav>
 <!-- /.navbar -->
@@ -37,9 +37,9 @@
 <!-- Main Sidebar Container -->
 <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
-    <a href="index3.html" class="brand-link">
+    <a href="?pg=inicio" class="brand-link">
         <img src="painel/dist/img/avatar4.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
-        <span class="brand-text font-weight-light">Painel Adm</span>
+        <span class="brand-text font-weight-light">Painel Administrativo</span>
     </a>
 
     <!-- Sidebar -->
@@ -50,12 +50,12 @@
                 <img src="img/icon.png" class="img-circle elevation-2" alt="User Image">
             </div>
             <div class="info">
-                <a href="#" class="d-block">Vinicius Costa</a>
+                <a href="#" class="d-block">Júlio César</a>
             </div>
         </div>
 
         <!-- SidebarSearch Form -->
-        
+
 
         <!-- Sidebar Menu -->
         <nav class="mt-2">
@@ -64,10 +64,28 @@
                      with font-awesome or any other icon font library -->
 
                 <li class="nav-item">
-                    <a href="pages/widgets.html" class="nav-link">
+                    <a href="?pg=produtos" class="nav-link">
                         <i class="nav-icon fas fa-th"></i>
                         <p>
                             Produtos
+                            <!--<span class="right badge badge-danger">New</span>-->
+                        </p>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="?pg=servicos" class="nav-link">
+                        <i class="nav-icon fas fa-th"></i>
+                        <p>
+                            Serviços
+                            <!--<span class="right badge badge-danger">New</span>-->
+                        </p>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="?pg=contato" class="nav-link">
+                        <i class="nav-icon fas fa-th"></i>
+                        <p>
+                            Contatos
                             <!--<span class="right badge badge-danger">New</span>-->
                         </p>
                     </a>
